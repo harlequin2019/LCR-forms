@@ -30,6 +30,19 @@ A free phone app for the daily pre-start, vehicle pre-start, incident/hazard rep
   - Can be started straight from a pre-start's defects: the vehicle, odometer, defects and photos are filled in for you.
 - **Forklift pre-start:** uses hours and shift. The unit-inspection and housekeeping checks match GoCanvas. The electrical, engine bay and vehicle integrity checks are placeholders to confirm.
 
+## Version 2.2
+- **Journey management plan (LCR-SAF-FRM-008):**
+  - Route templates fill in the stops, origin and destination. "Hells Gate – Mount Isa (dirt road)" and its reverse, Hells Gate – Doomadgee and back, and a custom route are included.
+  - Mobile numbers fill in from the team pack for the traveller, passengers and sched monitor.
+  - Covers alternative comms, how you'll contact the sched monitor, and sign-off.
+- **Incident notification and investigation (LCR-SAF-FRM-003):** replaces the interim form. It has:
+  - the GoCanvas pick-lists
+  - witness statements in the witness's own words
+  - a 5×5 risk matrix that sets the severity level (High / Extreme risk = Level 1; Medium = Level 2; Low = Level 3)
+  - the person(s) involved, with fatigue and roster questions
+  - injury details, the five groups of contributing factors, immediate and longer-term actions
+  - declaration, supervisor sign-off, operator and SSE acceptance.
+
 ## Files
 | File | Purpose |
 |---|---|
