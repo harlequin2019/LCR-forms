@@ -1,4 +1,4 @@
-# LCR Field Forms – setup guide
+# LCR Field Forms – setup guide (v2)
 
 A free phone app for the daily pre-start, vehicle pre-start, incident/hazard reports and the fuel register. It replaces the GoCanvas forms.
 
@@ -6,6 +6,21 @@ A free phone app for the daily pre-start, vehicle pre-start, incident/hazard rep
 - **PDFs:** each record becomes a PDF in the same layout and file name style as GoCanvas, e.g. `24_11_2026_LCR_DAILY_PRESTART_00258.pdf`.
 - **OneDrive:** tap **Share PDF**, pick **OneDrive** and choose the team folder. The OneDrive app must be installed and signed in.
 - **No logins or user fees:** anyone with the link can install it.
+
+
+## Version 2 – what's new
+- **Laramide logo** on the app and on every PDF.
+- **Daily pre-start** uses the GoCanvas lists: safety topics, work activities, tenements and prospects, people and supervisors. It adds:
+  - a Journey Management Plan / sched book reminder when work or travel is off the tenements
+  - a "not fit for work" warning.
+- **Light vehicle pre-start** follows the GoCanvas trial version and your paper checklist (handbrake moved to Unit inspection):
+  - four vehicle photos are required
+  - any defect needs photos and comments
+  - a warning shows when the next service is within 500 km
+  - the tenement map can be opened from the work locations question.
+- **Fuel register** follows the GoCanvas layout: fill location, which LV, odometer, fuel type, litres.
+- **Team pack:** names, supervisors, phone numbers, vehicles and prospects are kept in a private file (`lcr-team-pack.json`). It is **not** on GitHub. Each phone imports it once: Settings → Import team pack.
+- **SharePoint upload:** see `SETUP_SHAREPOINT.md`. Until IT has done that setup, use Share → OneDrive.
 
 ## Files
 | File | Purpose |
