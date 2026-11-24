@@ -22,6 +22,14 @@ A free phone app for the daily pre-start, vehicle pre-start, incident/hazard rep
 - **Team pack:** names, supervisors, phone numbers, vehicles and prospects are kept in a private file (`lcr-team-pack.json`). It is **not** on GitHub. Each phone imports it once: Settings → Import team pack.
 - **SharePoint upload:** see `SETUP_SHAREPOINT.md`. Until IT has done that setup, use Share → OneDrive.
 
+## Version 2.1
+- **LV weekly inspection:** from the GoCanvas trial version, including recovery gear, engine bay and interior photos.
+- **LV damage and maintenance report:**
+  - Green / Amber / Red assessment, with tag-out prompts.
+  - A maintenance status and a dated maintenance log you add to using *Edit*.
+  - Can be started straight from a pre-start's defects: the vehicle, odometer, defects and photos are filled in for you.
+- **Forklift pre-start:** uses hours and shift. The unit-inspection and housekeeping checks match GoCanvas. The electrical, engine bay and vehicle integrity checks are placeholders to confirm.
+
 ## Files
 | File | Purpose |
 |---|---|
