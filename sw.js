@@ -1,5 +1,5 @@
 // Offline cache for LCR Field Forms. Bump VERSION on every release.
-const VERSION='lcr-forms-v2.4';
+const VERSION='lcr-forms-v2.4.1';
 const FILES=['./','./index.html','./manifest.json','./icon-192.png','./icon-512.png','./map.jpg'];
 self.addEventListener('install',e=>{e.waitUntil(caches.open(VERSION).then(c=>c.addAll(FILES)).then(()=>self.skipWaiting()))});
 self.addEventListener('activate',e=>{e.waitUntil(caches.keys().then(ks=>Promise.all(ks.filter(k=>k!==VERSION).map(k=>caches.delete(k)))).then(()=>self.clients.claim()))});
