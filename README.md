@@ -43,6 +43,22 @@ A free phone app for the daily pre-start, vehicle pre-start, incident/hazard rep
   - injury details, the five groups of contributing factors, immediate and longer-term actions
   - declaration, supervisor sign-off, operator and SSE acceptance.
 
+## Version 2.3 – Timesheet and expense claim
+Both are on the home screen under **My month**. Set your name first: **Settings → Me**.
+- **Timesheet:** one running sheet per month.
+  - Today opens automatically. Tap **Worked**, **Travel** or **Day off / R&R**, pick the EPM/EL code and write the duties. **Same as previous day** copies yesterday's entry.
+  - Work days are numbered automatically and totalled.
+  - At month end, tap **Submit month** and sign. You get a PDF in the Lagoon Creek timesheet layout, named like `Oct_2026_Timesheet_MT.pdf`.
+  - **Supervisor sign** adds their signature later.
+- **Expense claim:** one running claim per month. Add each expense as it happens:
+  - date, supplier, description, project, cost code
+  - total incl. GST, with GST worked out as 1/11 automatically
+  - receipts: take a photo, or attach a screenshot or PDF.
+  
+  **Submit claim** makes one PDF, named like `MT_expenses_October_26.pdf`: the claim page first, then every receipt, each labelled with its item. **Approver sign** adds the approval later.
+- **Sending:** with SharePoint set up, PDFs upload to `Aus Geo Admin/06. Administration/03. Timesheets and Expense Claims/04. {YYYY}/{MM}. {Month}/{Name}`. Change the folder in Settings → Advanced, e.g. the `04.` year prefix each January. Otherwise use Share.
+- **Reminders:** the home screen shows whether today's timesheet is filled in, and warns if last month wasn't submitted.
+
 ## Files
 | File | Purpose |
 |---|---|
